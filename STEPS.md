@@ -52,6 +52,9 @@ in
 
 Step 1.4 - Create Age Groups
 
+Power Query
+Custom column - "Age_Groups"
+
 ```M
 if [Age] < 25 then "<25"
 else if [Age] <= 34 then "25–34"
